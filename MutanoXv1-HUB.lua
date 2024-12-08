@@ -71,7 +71,6 @@ local VerificarChave = Abas.SistemaChave:AddButton({
            print("Chave é válida")
            Janela:Close() -- Fecha a janela automaticamente após a validação da chave
         else
-        local exploit = getexecutorname or identifyexecutor
 local support = {
     ["Fluxus"] = true,
     ["Trigon"] = true,
@@ -84,14 +83,7 @@ local support = {
     ["Electron"] = true,
 }
 
-if support[exploit()]  then
-    print("Correct Executor Let's Run uwu")
-else
- game.Players.LocalPlayer:Kick("Ko Hỗ Trợ Executor | Not Support Executor | Tidak Mendukung Pelaksana | support fluxus,hydrogen,alysse,trigon,vegaX")
- end
-    
-local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Fluxus" or
-"Fluxus"
+local ExecutorUsing = is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "Krnl" or SONA_LOADED and "Sona" or "Fluxus"
                     local HttpService = game:GetService("HttpService")
                      local Data =
                         {
